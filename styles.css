@@ -1,8 +1,34 @@
 body{
-  background-color: yellow;
+  background-color: #badbe4;
   font-family: 'Jost', Arial, sans-serif;
 }
 
+.jumbotron{
+  background-color: #badbe4;
+
+}
 .navbar{
   font-size: 24px;
   }
+
+.small-only{
+  display: none;
+}
+
+.skyline{
+  max-width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+
+
+@media (max-width: 992px) {
+  .large-only{
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+
+
+}
