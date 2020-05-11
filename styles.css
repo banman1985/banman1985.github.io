@@ -41,7 +41,7 @@ h2, h4{
 
 }
 
-.content{
+ .content{
   width: 75%;
   border-radius: 12px;
   background-color: #badbe4;
@@ -55,25 +55,39 @@ h2, h4{
 
 }
 
-.card, .card-body{
+ .card, .card-body{
   border-color: #badbe4;
   background-color: #8f97ba;
   margin: 25px;
   border-radius: 12px;
+
+ }
+/*
+.card-body{
+    box-shadow: 0 0 5px 10px #badbe4;
 }
 
+.card:hover{
+  width: 100%;
+      transition: width 1s;
+
+}
+.card-body:hover{
+  font-size: 30px;
+        transition: font-size .5s;
+} */
+
 .card-img{
-  /* margin: 25px; */
   position: relative;
   top: 9%;
   left: 5%;
   max-width: 500px;
   max-height: 350px;
-
-
 }
 
-
+ .list-group-item{
+     background-color: #8f97ba;
+ }
 
 footer{
   position: fixed;
@@ -93,6 +107,9 @@ footer{
 @media (max-width: 992px) {
   .large-only{
     display: none;
+  }
+  .small-only{
+    display: block;
   }
 .card-img{
   max-width: 400px;
