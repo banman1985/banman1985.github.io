@@ -1,9 +1,16 @@
 /* Programmer: Brian nelson
 Date: 5/11/2020
 Project: Final Project - Online Profile */
+
+/* body */
 body {
   background-color: #badbe4;
   font-family: 'Jost', Arial, sans-serif;
+}
+
+/* navigation */
+.badge-info {
+  background-color: #a5bcc2;
 }
 
 .navbar {
@@ -12,15 +19,6 @@ body {
 }
 
 /* Images */
-.skyline {
-  max-width: 100%;
-  position: relative;
-  left: 0px;
-}
-
-.jumbotron {
-  background-color: #badbe4;
-}
 
 .biopic {
   max-width: 450px;
@@ -36,23 +34,39 @@ body {
   margin-bottom: 25px;
 }
 
-/* Headers */
-.half-size {
-  width: 50%;
-  position: relative;
-  left: 25%;
+.jumbotron {
+  background-color: #badbe4;
 }
 
+.skyline {
+  max-width: 100%;
+  position: relative;
+  left: 0px;
+}
+
+/* Headers */
 h2, h3, h4 {
   color: white;
   text-align: center;
   border-radius: 12px;
 }
 
-/* Cards and Main Content */
+.half-size {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
 
+/* Cards and Main Content */
 h2, h4, .card, .card-body, .list-group-item {
-  background: radial-gradient(circle at center, #97a0c4, #b6d7e0);
+  background: radial-gradient(circle at center, #8fb1ba, #b6d7e0);
+}
+
+.card {
+  margin: 35px;
+  border-color: #b6d7e0;
+  border-radius: 12px;
+  width: 100%;
 }
 
 .content {
@@ -63,12 +77,6 @@ h2, h4, .card, .card-body, .list-group-item {
   color: white;
   position: absolute;
   left: 10%;
-}
-
-.card {
-    margin: 35px;
-  border-color: #b6d7e0;
-  border-radius: 12px;
 }
 
 /* Footer */
@@ -98,6 +106,17 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .card-img {
+    max-width: 300px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+
+  .content{
+    font-size: 20px;
+  }
+
   .large-only {
     display: none;
   }
@@ -105,28 +124,23 @@ footer {
   .small-only {
     display: block;
   }
-
-  .card-img {
-    max-width: 300px;
-  }
 }
 
 @media(max-width: 768px) {
+  .card {
+    margin: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
   .card-img {
     max-width: 250px;
-    left: 15%;
   }
 
   .content {
     font-size: 16px;
     width: 100%;
     left: 0;
-  }
-
-  .card {
-    margin: 15px;
-    margin-bottom: 25px;
-    margin-top: 25px;
   }
 
   h2 {
