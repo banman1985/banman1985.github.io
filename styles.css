@@ -101,11 +101,15 @@ footer {
 
 @media (max-width: 1200px) {
   .card-img {
-    max-width: 350px;
+    max-width: 400px;
   }
 }
 
 @media (max-width: 992px) {
+
+  .biopic{
+    max-width: 350px;
+  }
   .card-img {
     max-width: 300px;
     width: 50%;
@@ -115,6 +119,7 @@ footer {
 
   .content{
     font-size: 20px;
+
   }
 
   .large-only {
@@ -127,6 +132,10 @@ footer {
 }
 
 @media(max-width: 768px) {
+
+  .biopic{
+    max-width: 300px;
+  }
   .card {
     margin: 15px;
     margin-bottom: 25px;
@@ -139,8 +148,9 @@ footer {
 
   .content {
     font-size: 16px;
-    width: 100%;
+    width: 95%;
     left: 0;
+
   }
 
   h2 {
